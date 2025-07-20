@@ -3,6 +3,11 @@ package country_city_management_system;
 import java.util.Scanner;
 
 public class CountryCityApp {
+    static Scanner scanner = new Scanner(System.in);
+    static Country[] countries = new Country[100];
+    static City[] cities = new City[500];
+    static int countryCount = 0;
+    static int cityCount = 0;
 
     public static void main(String[] args) { //Ayla
 
@@ -45,6 +50,20 @@ public class CountryCityApp {
                 "7. Display Full List of Countries and Cities \n" +
                 "8. Calculate Growth Rate \n" +
                 "9. Exit");
+    }
+
+    public static int indexOfCountry(String countryName){//Ayla
+        for(int i = 0; i<countryCount; i++){
+            if(countryName.equals(countries[i].getName())) return i;
+        }
+        return -1;
+    }
+
+    public static int indexOfCity(String cityName){//Ayla
+        for(int i = 0; i<cityCount; i++){
+            if(cityName.equals(cities[i].getName())) return i;
+        }
+        return -1;
     }
 
     public static void addCity(){//Saleh
