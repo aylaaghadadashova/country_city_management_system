@@ -47,34 +47,37 @@ public class CountryCityApp {
                 "9. Exit");
     }
 
+    //indexOfCountry(){}
+    //indexOfCity(){}
+
     public static void addCity(){//Saleh
 
-    };
+    }
 
     public static void addCountry(){//Ayla
 
-    };
+    }
 
     public static void removeCity(){//Sevinc
 
-    };
+    }
 
     public static void removeCountry(){//Saleh
 
-    };
+    }
 
     public static void updateCity(){//Ayla
-    };
+    }
 
     public static void updateCountry(){//Sevinc
 
-    };
+    }
 
     public static void displayAll(){//Ayla
-    };
-
+    }
+    
     public static void showRates(){//Ayla
 
-    };
+    }
 }
 
