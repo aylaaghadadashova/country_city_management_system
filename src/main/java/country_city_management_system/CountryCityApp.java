@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CountryCityApp {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //Ayla
 
         Scanner scanner = new Scanner(System.in);
         Country[] countries = new Country[100];
@@ -34,7 +34,7 @@ public class CountryCityApp {
         }
     }
 
-    public static void showMenu(){
+    public static void showMenu(){ //Ayla
         System.out.println("---MENU---\n" +
                 "1. Add City \n" +
                 "2. Add Country \n" +
@@ -47,20 +47,34 @@ public class CountryCityApp {
                 "9. Exit");
     }
 
-    public static void addCity(){};
+    public static void addCity(){//Saleh
 
-    public static void addCountry(){};
+    };
 
-    public static void removeCity(){};
+    public static void addCountry(){//Ayla
 
-    public static void removeCountry(){};
+    };
 
-    public static void updateCity(){};
+    public static void removeCity(){//Sevinc
 
-    public static void updateCountry(){};
+    };
 
-    public static void displayAll(){};
+    public static void removeCountry(){//Saleh
 
-    public static void showRates(){};
+    };
+
+    public static void updateCity(){//Ayla
+    };
+
+    public static void updateCountry(){//Sevinc
+
+    };
+
+    public static void displayAll(){//Ayla
+    };
+
+    public static void showRates(){//Ayla
+
+    };
 }
 
